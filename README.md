@@ -1,4 +1,4 @@
-responsivecarousel
-==================
+jquery.responsivecarousel
+=========================
 
-Responsive Carousel
+Responsive carousel plugin for jQuery. Supports AMD / non-AMD loading.
