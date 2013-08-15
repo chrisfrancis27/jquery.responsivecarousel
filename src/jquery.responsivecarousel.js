@@ -1,4 +1,4 @@
-/*global jQuery:true,define:true*/
+/*global define:true*/
 ;(function (factory) {
   'use strict';
   if (typeof define === 'function' && define.amd) {
@@ -6,7 +6,7 @@
     define(['jquery'], factory);
   } else {
     // Browser globals
-    factory(jQuery);
+    factory(window.jQuery);
   }
 } (function ($) {
   'use strict';
